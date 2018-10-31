@@ -1,3 +1,18 @@
+# Latent Semantic Analysis
+
+
+The latent in Latent Semantic Analysis (LSA) means latent topics. 
+Basically, LSA finds low-dimension representation of documents and words.
+The dot product of row vectors is the document similarity, while the dot product of column vectors is the word similarity.
+To reduce the dimensionality of X, apply truncated SVD. 
+In this case, U ∈ ℝ^(m ⨉ t) emerges as our document-topic matrix, and V ∈ ℝ^(n ⨉ t) becomes our term-topic matrix. In both U and V, the columns correspond to one of our t topics. In U, rows represent document vectors expressed in terms of topics; in V, rows represent term vectors expressed in terms of topics.
+
+
+Using:
+
+      TfidfVectorizer
+      TruncatedSVD
+
 # LatentDirichletAllocation-Genism
 
 LDA stands for Latent Dirichlet Allocation. LDA is a Bayesian version of pLSA. In particular, it uses dirichlet priors for the document-topic and word-topic distributions, lending itself to better generalization.
