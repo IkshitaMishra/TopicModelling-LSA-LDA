@@ -10,14 +10,20 @@ Refer: https://medium.com/nanonets/topic-modeling-with-lsa-psla-lda-and-lda2vec-
 
 
 This is implementation of LDA using Genism package. It retrieves topics from Newspaper JSON Data.
-1) Remove emails and newline characters
-2) Tokenize words and Clean-up text
-3) Remove Stopwords, Make Bigrams and Lemmatize
-4) Create the Dictionary and Corpus needed for Topic Modeling
-5) Compute Model Perplexity and Coherence Score
-6) Visualize the topics-keywords
-7) Building LDA Mallet Model
-8) Optimal number of topics for LDA
-9) Dominant topic in each sentence
+
+Topics Found :
+
+1) Political-Wars 
+2) Computer 
+3) Countries 
+4) Aerospace 
+5) Crime and Law  
+6) Sports 
+7) Religion 
+
+Evaluation Used :
+
+1) Perplexity
+2) Coherence Score
 
 Refer: https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/
