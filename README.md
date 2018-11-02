@@ -26,19 +26,19 @@ Refer: https://medium.com/nanonets/topic-modeling-with-lsa-psla-lda-and-lda2vec-
 
 This is implementation of LDA using Genism package. It retrieves topics from Newspaper JSON Data.
 
-Topics Found :
+            Topics Found :
 
-1) Political-Wars 
-2) Computer 
-3) Countries 
-4) Aerospace 
-5) Crime and Law  
-6) Sports 
-7) Religion 
+            1) Political-Wars 
+            2) Computer 
+            3) Countries 
+            4) Aerospace 
+            5) Crime and Law  
+            6) Sports 
+            7) Religion 
 
-Evaluation Used :
+            Evaluation Used :
 
-1) Perplexity
-2) Coherence Score
+            1) Perplexity
+            2) Coherence Score
 
 (Tutorial Referred) Refer: https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/
