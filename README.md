@@ -10,8 +10,8 @@ In this case, U ∈ ℝ^(m ⨉ t) emerges as our document-topic matrix, and V �
 
 Using:
 
-      TfidfVectorizer
-      TruncatedSVD
+            TfidfVectorizer
+            TruncatedSVD
 
 # LatentDirichletAllocation-Genism
 
